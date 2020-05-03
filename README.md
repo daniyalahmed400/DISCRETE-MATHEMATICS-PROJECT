@@ -12,3 +12,6 @@ We will design GUI using PyQt5 and  implement a message encryption-decryption ap
 2. Type >  pip install PyQt5
 3. Type >  pip install PyQt5-tools
 4. Now Open the file in any python IDE to run the project (Main.py)
+CONTACT EMAIL: daniyalahmed400@gmail.com
+Demo Video of Project Uploaded in repository named("Demo Video")
+And rar of Project is also uploaded
