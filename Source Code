@@ -1,0 +1,40 @@
+import sys
+import base64
+from PyQt5.QtWidgets import QApplication,QMainWindow,QMessageBox,QAction
+from PyQt5.QtCore import pyqtSlot
+from PyQt5.uic import loadUi
+from PyQt5.Qt import Qt
+import random 
+
+class myclass(QMainWindow):
+	def __init__(self):
+	  super(myclass,self).__init__()
+	  loadUi('FORM.ui',self)
+	  self.btne.clicked.connect(self.encode)
+	  self.btnd.clicked.connect(self.decode)
+	@pyqtSlot()
+	def encode(self):
+		enc = [] 
+		msg=self.txtm.text()
+		key=self.txtk.text()
+		for i in range(len(msg)): 
+			key_c = key[i % len(key)] 
+			enc_c = chr((ord(msg[i]) + ord(key_c)) % 256)
+			enc.append(enc_c) 
+		self.lbem.append(base64.urlsafe_b64encode("".join(enc).encode()).decode()) 
+	def decode(self):
+		dec = [] 
+		msg=self.txtm.text()
+		key=self.txtk.text()
+		msg = base64.urlsafe_b64decode(msg).decode() 
+		for i in range(len(msg)): 
+			key_c = key[i % len(key)] 
+			dec_c = chr((256 + ord(msg[i]) - ord(key_c)) % 256)
+			dec.append(dec_c) 
+		self.lbd.append("".join(dec))
+	
+
+app=QApplication(sys.argv)
+widget=myclass()
+widget.show()
+sys.exit(app.exec_())
