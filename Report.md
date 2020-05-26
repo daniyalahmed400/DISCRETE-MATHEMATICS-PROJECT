@@ -11,23 +11,18 @@
 we have design a project to implement a message encryption-decryption application according to the Vigenere cipher, which can encrypt the message using the key and can decrypt the encrypted hash using same key(Symmetric).
 
 ## Discrete Math Concepts Used ##
-Replace this text with the desription of where in the project you used which discrete math concepts and how it is playing its role to make your project work. You may use more 3rd level heading to categorize this portion of the report as shown below.
-(The concept of Discrete Maths used here is Modular Arithmetic)
-
-### Example 1: Replace with Your Own ###
-And you may also add code samples from your project to support your description. 
-```C++
-#include <stdio.h>
-int main(int argc, char* argv[]){
-    printf("You may add some code of your liking if you want to support your description");
-}
+We used Modulo arthimetic and ciphers to implement encryption and decryprtion.
+### Example 1: Encode/Encryption ### 
+```def encode(self):
+		enc = [] 
+		msg=self.txtm.text()
+		key=self.txtk.text()
+		for i in range(len(msg)): 
+			key_c = key[i % len(key)] 
+			enc_c = chr((ord(msg[i]) + ord(key_c)) % 256)
+			enc.append(enc_c) 
+		self.lbem.append(base64.urlsafe_b64encode("".join(enc).encode()).decode()) 
 ```
 
 ## Problems Faced ##
-We haven't face that much problem, only two issues were there.
-
-### Problem 1: Github Issue ###
-We haven't use github before soo it was little tricky for us to understand how to use github.
-
-### Problem 2: Timing issue ###
-Less time was granted for project.
+We haven't face that much problem.
