@@ -12,6 +12,7 @@ we have design a project to implement a message encryption-decryption applicatio
 
 ## Discrete Math Concepts Used ##
 Replace this text with the desription of where in the project you used which discrete math concepts and how it is playing its role to make your project work. You may use more 3rd level heading to categorize this portion of the report as shown below.
+(The concept of Discrete Maths used here is Modular Arithmetic)
 
 ### Example 1: Replace with Your Own ###
 And you may also add code samples from your project to support your description. 
