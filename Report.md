@@ -1,7 +1,6 @@
 # DM 103348: PROJECT: RSA-CRYPTOGRAPHY MESSAGE ENCODER & DECODER WITH USER PROVIDED KEY #
 
 ### PROJECT MEMBERS ###
-
  - **64299** | **Hafiz Daniyal Shakeel**
  - 64359 | Syed Shaan Ali Rizvi
  - 64239 | Syed Muhammad Uzair 
