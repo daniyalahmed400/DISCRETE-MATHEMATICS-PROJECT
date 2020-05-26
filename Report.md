@@ -8,7 +8,7 @@
  - 63372 | Rabbiya Mehmood
 
 ## Project Description ##
-we have design a project to implement a message encryption-decryption application according to the Vigenere cipher, which can encrypt the message using the key and can decrypt the encrypted hash using same key(Symmetric).
+We have design a project to implement a message encryption-decryption application according to the Vigenere cipher, which can encrypt the message using the key and can decrypt the encrypted hash using same key(Symmetric).
 
 ## Discrete Math Concepts Used ##
 We used Modulo arthimetic and ciphers to implement encryption and decryprtion.
