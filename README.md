@@ -11,7 +11,7 @@ Encryption:
 The plaintext(P) and key(K) are added modulo Z.
 Ei = (Pi + Ki) mod Z
 
-Decryption
+Decryption:
 Di = (Ei - Ki + Z) mod Z
 
  ### GROUP MEMBERS ARE:
