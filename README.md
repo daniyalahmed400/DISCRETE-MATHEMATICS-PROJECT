@@ -7,6 +7,13 @@ Python 3.6 and to design the form PyQt5 Designer
 ### PROJECT DETAILS:
 We will design GUI using PyQt5 designer and  implement a message encryption-decryption application according to the Vigenere cipher, which can encrypt the message using the key and can decrypt the encrypted hash using same key(Symmetric).
 
+## Encryption:
+The plaintext(P) and key(K) are added modulo Z.
+Ei = (Pi + Ki) mod Z
+
+## Decryption
+Di = (Ei - Ki + Z) mod Z
+
  ### GROUP MEMBERS ARE:
  1. Hafiz Daniyal Shakeel (64299)
  2. Syed Shaan Ali Rizvi (64359)
