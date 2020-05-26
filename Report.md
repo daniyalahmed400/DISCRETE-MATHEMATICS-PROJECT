@@ -1,11 +1,12 @@
 #DM 103348: PROJECT: RSA-CRYPTOGRAPHY MESSAGE ENCODER & DECODER WITH USER PROVIDED KEY#
 
 ###PROJECT MEMBERS###
+
  **64299** | **Hafiz Daniyal Shakeel**
  64359 | Syed Shaan Ali Rizvi
-64239 | Syed Muhammad Uzair 
-64335 | Syeda Raahima Batool Zaidi 
-63372 | Rabbiya Mehmood
+ 64239 | Syed Muhammad Uzair 
+ 64335 | Syeda Raahima Batool Zaidi 
+ 63372 | Rabbiya Mehmood
 
 ## Project Description ##
 we have design a project to implement a message encryption-decryption application according to the Vigenere cipher, which can encrypt the message using the key and can decrypt the encrypted hash using same key(Symmetric).
