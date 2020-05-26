@@ -30,7 +30,7 @@ Di = (Ei - Ki + Z) mod Z
 
 ### UPLOAD DETAIL:
 1. Demo Video of Project is Uploaded in repository named("Demo Video")
-2. RAR of Project is also uploaded
+2. RAR of (Visual Studio Project) is also uploaded
 
 ### CONTACT DETAIL:
 CONTACT EMAIL: daniyalahmed400@gmail.com
