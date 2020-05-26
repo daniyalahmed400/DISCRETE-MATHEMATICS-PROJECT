@@ -13,7 +13,8 @@ we have design a project to implement a message encryption-decryption applicatio
 ## Discrete Math Concepts Used ##
 We used Modulo arthimetic and ciphers to implement encryption and decryprtion.
 ### Example 1: Encode/Encryption ### 
-```def encode(self):
+```python
+def encode(self):
 		enc = [] 
 		msg=self.txtm.text()
 		key=self.txtk.text()
